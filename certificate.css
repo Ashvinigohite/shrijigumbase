@@ -1,0 +1,690 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #B7E5CD;
+}
+#header{
+    width: 1499.6px;
+    height: 106.6px;
+    margin-top: 30px;
+    margin-left: 15px;
+    background-color: white;
+    border-radius: 20px;
+}
+#nav {
+    width: 1439.6px;
+    height: 51.6px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+#logo{
+    width: 191px;
+    height: 77px;
+    margin-top: -1%;
+    background-image: url(Logo.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+#anchor{
+    width: 578px;
+    height: 22px;
+    margin-top: -49px;
+    margin-left: 461px;
+       display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#anchor a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+      font-family: "Plus Jakarta Sans", sans-serif;
+      text-transform: capitalize;
+    
+}
+#icons{
+    width: 145px;
+    height: 45px;
+    margin-top: -30px;
+    margin-left: 1090px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+#icons i{
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 4px;
+    position: absolute;
+    color: #017B93;
+}
+#icons #icon{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid #F16CA7;
+
+}
+#nav button{
+    width: 162.14px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 1277.41px;
+    margin-top: -48px;
+    position: absolute;
+    background-color: #017B93;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    border: none;
+      font-family: "Plus Jakarta Sans", sans-serif;
+
+}
+#background{
+    width: 1499.6px;
+    height: 403px;
+    margin-top: 31.6px;
+    position: absolute;
+    border-radius: 20px;
+    background-image: url(wonderful\ journey\ of\ chewing\ gum.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 16px;
+}
+#background1{
+    width: 1499.6px;
+    height:403px ;
+    background-color: #121820e3;
+    border-radius: 20px;
+    opacity: 80%;
+}
+#background1 h1{
+    margin-left: 543.13px;
+    margin-top: 160px;
+    color: white;
+    position: absolute;
+    font-size: 46px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 600;
+}
+#background1 h1 span{
+    font-family: "Lora", serif;
+    font-size: 46px;
+    font-weight: 400;
+    font-style: italic;
+
+}
+#background1 p{
+    color: white;
+    margin-top: 223px;
+    margin-left: 545.6px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    position: absolute;
+
+}
+#background2{
+    width: 1499px;
+    height: 1000px;
+    border-radius: 20px;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column; 
+    background-color: white;
+
+}
+
+
+#certification{
+    width: 90%;
+    height: 44%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.certificate{
+    width: 24%;
+    height: 98%;
+    border-radius: 20px;
+    background-image: url( image\ copy\ 24.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+ #footer{
+    width: 1499px;
+    height: 528px;
+    border-radius: 20px;
+    margin-top: 2%;
+    margin-left: 1%;
+
+}
+#container4{
+   width: 1499px;
+    height: 125%;
+    background-color:#017B93;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+}
+.division{
+    width: 45%;
+    height: 90%;
+}
+#gum{
+    width: 22%;
+    border-radius: 10px;
+    margin-top: 12%;
+    margin-left: 14%;
+    height: 15%;
+    background-color: white;
+
+    
+}
+#gum img{
+    width: 210%;
+    height: 290%;
+    margin-top: -46%;
+    margin-left: -55%;
+}
+#nav1{
+    width: 380%;
+    height: 80%;
+    margin-left: -12%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: -30%;
+}
+#nav1 a{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#no{
+    width: 350%;
+    height: 290%;
+
+
+    margin-top: -5%;
+}
+#no h3{
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
+}
+#no h6{
+    color: white;
+    font-size: 15px;
+    letter-spacing: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+#no h5{
+    color: white;
+    font-size: 19px;
+    margin-top: 17%;
+    font-weight: 300;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#line3{
+    width: 81%;
+    height: 0.04%;
+    background-color: rgba(128, 128, 128, 0.733);
+    margin-top: 24.3%;
+    margin-left:11% ;
+    position: absolute;
+}
+#div2 h2{
+    margin-top: 10%;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+#div2 p{
+    margin-top: 2%;
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+     font-family: "Open Sans", sans-serif;
+}
+#enter{
+    width: 94%;
+    margin-top: 4%;
+    height: 11%;
+}
+#enter input{
+    width: 70%;
+    height: 100%;
+    outline: none;
+    text-transform: capitalize;
+    border-radius: 10px;
+    background-color:rgba(6, 191, 198, 0.253) ;
+    border: none;
+    padding: 5px;
+    
+}
+#enter input::placeholder{
+    color: white;
+}
+#enter button{
+    width: 29.3%;
+    margin-left: -2%;
+    height: 100%;
+    background-color: rgb(237, 45, 109);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+#follows{
+    width: 85%;
+    height: 11%;
+   
+    margin-top: 6%;
+}#follows h2{
+    font-size: 22px;
+    margin-top: 5%;
+    color: white;
+}
+#follows .links{
+    width: 50%;
+    height: 100%;
+    margin-top: -7%;
+    margin-left: 35%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#follows .link{
+    width: 38px;
+    height: 38px;
+    background-color: white;
+    border-radius: 50%;
+    align-items: center;
+}
+.link i{
+    text-align: center;
+    color: rgb(222, 44, 104);
+    
+    padding: 7px;
+    position: absolute;
+    font-size: 22px;
+}
+ #div2 .last{
+    width: 30%;
+    height: 10;
+    background-color: rgb(13, 229, 27);
+}
+#div2 h5{
+    margin-top: 20%;
+    margin-left: 30%;
+    position: absolute;
+    color: white;
+    font-size: 19px;
+    font-weight: 200;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#div2 h6{
+    margin-top: 20%;
+    margin-left: 20%;
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#div2 .line6{
+    width: 0.01%;
+    height: 7%;
+    margin-top: 19.5%;
+    margin-left: 28.5%;
+    background-color: rgb(99, 98, 98);
+    position: absolute;
+}
+#click-me{
+    display: none;
+}
+#menu-btn{
+    display: none;
+}
+
+
+@media (max-width:748px) {
+    html,body{
+        height: 100%;
+        width: 100%;
+    }
+    #click-me{
+    display: block;
+    }
+    #menu-btn{
+    display: block;
+    }
+
+   
+
+    #menu-btn{
+        display: block;
+        font-size: 12px;
+        margin-left: 80%;
+        margin-top: -2%;
+      
+    }
+    #click-me{
+        display: block;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 20px;
+        color: #000;
+        margin-left: 65%;
+        margin-top: -3%;
+        
+    }
+
+    #click-me a{
+        color: black;
+        text-decoration: none;
+        font-size: 12px;
+    }
+    
+    #header #anchor a {
+        display: block;
+    
+        color: black;
+        margin: 1.5rem;
+        padding: .5rem;
+        font-size: 15px;
+    }
+
+     #nav #anchor{
+        position: absolute;
+        /* right: 62%; */
+        right: 120%;
+        top: 10%;
+        /* left: -10%; */
+
+        background-color: white;
+        margin-top: 100px;
+        display: block;
+
+        border-radius: 10px;
+        width: 35%;
+        height: 25rem;
+        transition: 2s ease-in-out;
+        align-items: center;
+        text-align: center;
+        z-index: 99999;
+        
+
+    }
+    #header #anchor.active{
+        right: 0%;
+    }
+    #nav #icons{
+        position: absolute;
+        right: 120%;
+
+        background: white;
+        width: 25%;
+        height: 20rem;
+        justify-content: space-around;
+
+        transition: 2s ease-in-out;
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        z-index: 99999;
+
+    }
+   
+    #header #icons.active{
+        right: 0%;
+    }
+   #header #icons i{
+     font-size: 15px;
+     color: rgb(3, 85, 114);
+     margin-left: -4%;
+     margin-top: 3%;
+
+   }
+
+    #anchor{
+        display: none;
+    }
+
+    #icons{
+        display: none;
+    }
+    #nav button{
+        display: none;
+        margin-left: -2%;
+        margin-top: 5%;
+    }
+
+    #header{
+        width: 100%;
+        overflow: hidden;
+    }
+     #background{
+        width: 100%;
+    }
+    #background1{
+        width: 100%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    #background1 h1{
+        margin-left: 25%;
+    }
+     #background1 p{
+        margin-left: 26%;
+    }
+    #background2{
+        width: 100%;
+        height: 180%;
+
+    }
+
+    #certification{
+        width: 100%;
+        height: 35%;
+    }
+   
+    #footer{
+        width: 100%;
+        height: 50%;
+        flex-direction: column;
+    }
+       #container4{
+        width: 100%;
+        height: 250%;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    #container4 #div1{
+        width: 100%;
+        text-align: start;
+    }
+    #div1 #gum{
+        text-align: start;
+        margin-left: 1%;
+    }
+
+    #container4 #div2{
+        width: 100%;
+    }
+     #line3{
+        margin-top: 50%;
+        width: 100%;
+        margin-left: 0.1%;
+        
+    }
+    #div2 h6{
+        margin-top: 30%;
+        margin-left: 58%;
+    }
+    #div2 h5{
+        margin-top: 30%;
+        margin-left: 75%;
+    }
+     #container4 .line6{
+        height: 5%;
+        margin-left: 73%;
+        margin-top: 30%;
+    }
+
+
+
+}
+
+
+
+@media (max-width:450px) {
+    html,body{
+        height: 100%;
+        width: 100%;
+        
+    }
+
+     #container #box1 p{
+        font-size: 11px;
+        /* color: white; */
+     }
+      #header{
+        width: 100%;
+        overflow: hidden;
+    }
+    #menu-btn{
+        margin-top: -5%;
+        font-size: 18px;
+    }
+     #click-me{
+        margin-top: -5%;
+        font-size: 18px;
+    }
+    #header #anchor{
+        width: 10rem;
+    }
+    #header #icons{
+     height: 10rem;
+     border-radius: 10px;
+    }
+    #header #icons i{
+     font-size: 15px;
+     color: rgb(3, 85, 114);
+     margin-left: -7%;
+     margin-top: 4%;
+
+   }
+   
+    #background1 h1{
+        margin-left: 10%;
+        height: 120%;
+    }
+     #background1 p{
+        margin-left: 10%;
+    }
+    #background2{
+        margin-top: 4%;
+        height: 540%;
+    }
+    #certification{
+        width: 100%;
+        display: flex;
+        height: 47%;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    .certificate{
+        width: 55%;
+        height: 30%;
+    }
+
+
+       #container4 #gum{
+    height: 10%;
+}
+#gum img{
+    margin-top: -55%;
+}
+#container4 #nav1{
+    width: 450%;
+}
+
+
+#container4 #div2{
+        width: 100%;
+    }
+     #line3{
+        margin-top: 202%;
+        width: 100%;
+        margin-left: 0.1%;
+        
+    }
+    #div2 h2{
+        margin-top: -10%;
+    }
+    #div2 h5{
+        margin-top: 75%;
+        margin-left: 40%;
+    }
+    #div2 h6{
+        margin-top: 75%;
+        margin-left: 3%;
+    }
+    #div2 button{
+        margin-top: 6%;
+        width: 100%;
+        margin-left: 1%;
+    }
+     #div2  #enter input{
+        width: 100%;
+    }
+     #container4 .line6{
+       display: none;
+    }
+    #div2 #follows{
+        margin-top: 37%;
+        width: 100%;
+        height: 22%;
+    }
+    #follows .links{
+        margin-left:1%;
+    }
+    #follows .link {
+    margin-top: 3%;
+    text-align: start;
+    }
+
+}
